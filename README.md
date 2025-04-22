@@ -1,27 +1,27 @@
-# package_name
+# fatoriais
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package fatoriais is used to:
+	- Calculate the factorials of numbers from 1 to 10
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install fatoriais
 
 ```bash
-pip install package_name
+pip install fatoriais
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from fatoriais.fatorial import fatorial
+fatorial(n)
 ```
+- Replace "n" with the number you want the factorial
 
 ## Author
-My_name
+Enzo Camelo Vieira
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
